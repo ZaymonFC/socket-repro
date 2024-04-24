@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@dxos/client':
-    specifier: 0.4.10-main.4c8c73c
-    version: 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+    specifier: 0.4.10-main.5d68f3b
+    version: 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
   vite-plugin-top-level-await:
     specifier: ^1.4.1
     version: 1.4.1(vite@5.2.10)
@@ -128,21 +128,21 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: false
 
-  /@dxos/async@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-srYnI1UdPF3ebdJH2P/r8efKfZvX3JKUBeFna4jR6CgnxfAMPoBaKTGhz5ZEerxxNfwoQGN7ErZ0JeWntZAFtQ==}
+  /@dxos/async@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-yXCVyO7hUfLIQthmSMSg+y+PXnLlzu8B45hgkrtRKXRL8n0PkjqG1G291qfvtsp52YGwjR+hW9ulBK3KywlBPw==}
     dependencies:
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       zen-observable: 0.10.0
       zen-push: 0.3.1
     dev: false
 
-  /@dxos/automerge@0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5):
-    resolution: {integrity: sha512-Uk2uLIQkN3uQuCHf4fqqo+GsReCIgwCajmqEOlnzb3V/Egae76jzhXUI+AXDSqPACChjkSomb++UPpK9gmym1w==}
+  /@dxos/automerge@0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5):
+    resolution: {integrity: sha512-+K3wPHe/sXPJsPJEsGU6BZswO/Nh6cvjTS3KPdVA3MeooAPZP6r8M4PKf1a0xloEdG5JbLuUs+GGWcOuqCtxxQ==}
     dependencies:
       '@automerge/automerge': 2.2.0
       '@automerge/automerge-repo': 1.1.9(@types/node@20.12.7)(typescript@5.4.5)
@@ -162,19 +162,19 @@ packages:
       - typescript
     dev: false
 
-  /@dxos/client-protocol@0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-LPagLeklhhmc2bQcm4pd9vsSGDr9GO4hPEjqERZEdmexet/bhckF0YTRlBsVpF78GD9FGnHD9KFMZOEn1aslvw==}
+  /@dxos/client-protocol@0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-NqDR++FZ0diRbrPBYhY3eNPWWkP6XE7/wl7r32mWgf4SZNM8r4cs1zJ7qL1+PJuL+whPKmgRJLjFrPMd12jMMw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/config': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/echo-schema': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/config': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/echo-schema': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
       base-x: 3.0.9
     transitivePeerDependencies:
       - '@swc/core'
@@ -188,41 +188,41 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/client-services@0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-Eib84BWNWwopYiv8BASoNRCnz0W7SMjJXf9KXTt2uEaLQ5pJNKtFupqcGX3IGoVlq0JPCqBcIsMpfv+8H0bTjA==}
+  /@dxos/client-services@0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-beHrsGDNPZaHEdu43x0dWcMigOqo0R/dpF2UnwPM71qPqrz0rAkaDgIvYS4uBnrdEmhulY2t/AwrAGh6OJhQWg==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/automerge': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/client-protocol': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/config': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/credentials': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/echo-pipeline': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/echo-schema': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/feed-store': 0.4.10-main.4c8c73c
-      '@dxos/indexing': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keyring': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/lock-file': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/messaging': 0.4.10-main.4c8c73c
-      '@dxos/network-manager': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-gossip': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-object-sync': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
-      '@dxos/websocket-rpc': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/automerge': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/client-protocol': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/config': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/credentials': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/echo-pipeline': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/echo-schema': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/feed-store': 0.4.10-main.5d68f3b
+      '@dxos/indexing': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keyring': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/lock-file': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/messaging': 0.4.10-main.5d68f3b
+      '@dxos/network-manager': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-gossip': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-object-sync': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
+      '@dxos/websocket-rpc': 0.4.10-main.5d68f3b
       level: 8.0.1
       platform: 1.3.6
     transitivePeerDependencies:
@@ -237,36 +237,36 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/client@0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-OBA7TLktm0wknq9ns4xKwD4FbuwEnGMHlk0Edc7GsYMvd9M/S9x2oaawMlFMlEAjbMIRhAqQwCzBKfMTR+E6tA==}
+  /@dxos/client@0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-AqR7z0DV+aQ3qLJGy9+bgc+K7zxvb4+1ALGJOltqJRc0qFX3E8UivlvAy2K5qXtfTG2V5Hq1yQT3fpcH4mwiIg==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/client-protocol': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/client-services': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/config': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/credentials': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/echo-pipeline': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/echo-schema': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/indexing': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/messaging': 0.4.10-main.4c8c73c
-      '@dxos/network-manager': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/rpc-tunnel': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
-      '@dxos/websocket-rpc': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/client-protocol': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/client-services': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/config': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/credentials': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/echo-pipeline': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/echo-schema': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/indexing': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/messaging': 0.4.10-main.5d68f3b
+      '@dxos/network-manager': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/rpc-tunnel': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
+      '@dxos/websocket-rpc': 0.4.10-main.5d68f3b
       base-x: 3.0.9
       lodash.get: 4.4.2
       lodash.isequal: 4.5.0
@@ -283,27 +283,27 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/codec-protobuf@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-HMfOSjRYBKD3FlRRCm80ITOSdfKHivZz3dB07Avw9CLX12acxYo5WHrJ3P4r+K5DKINcQ2WcU1sNNpRiwpo2Cg==}
+  /@dxos/codec-protobuf@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-++bLWQF3grC+Y8ETEwbfol9aRUFHJHvqdOyjF50jUK6yKyM8I515zca4XhGCVI4BZ0RbD8LrgsZdwFuuYYdeXQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       compress-json: 2.1.3
       lodash.merge: 4.6.2
       protobufjs: 7.2.6
     dev: false
 
-  /@dxos/config@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-3e9fyg4zjOmg5+o8P1UxTnSdYsJgkIaEAdV84JTp1lWjApjikpOtNp+85wdBXBQe3bhdFIbGmLkbF+10GToAuQ==}
+  /@dxos/config@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-bVxqZWmX12ELrATIP39CQrlQ3wXqVvorIgK0h6EMk8U4wpjC4fTz5XOdbpaKAeVhPoTLWhKhpp34rP/Q6NACbQ==}
     dependencies:
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
       boolean: 3.2.0
       js-yaml: 4.1.0
       localforage: 1.10.0
@@ -314,31 +314,31 @@ packages:
       pkg-up: 3.1.0
     dev: false
 
-  /@dxos/context@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-FT0cpSVuWjSD87vXVKYxMT1V1+coCEC7kiQgPpHyaSDPMCk/3d+W7PC+oAbT8dQJ/UWIpNhvapb9BOnIJBXlJQ==}
+  /@dxos/context@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-tJNA5Q7dJ9v1m1CNynoGs74QV35VEPWTwb2PDUvwsqHoG1Fb9nHqg5BfIOnYt98OuQyf82ZuUhxYW8no65uSLA==}
     dependencies:
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/credentials@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-c7bpn6Noh2Hr6meohi+2HBC33aIiOwNGt8FTJVv1vMPIXB9Ff5qrzMy5J2mZHx9vfB2SIPuKKQpxSzTjL++4oA==}
+  /@dxos/credentials@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-AP1kpOMK94/NAh1L+fEpmqoqKMvMaz6S3eAA9plvMxfxIBrfTptIXGnvV+rUGbez3MPCaO4zGVSywyB3J/s5YQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/feed-store': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keyring': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/feed-store': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keyring': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       bip39: 3.1.0
       buffer-json-encoding: 1.0.2
       encoding-down: 6.3.0
@@ -353,69 +353,69 @@ packages:
       stream-to-array: 2.3.0
     dev: false
 
-  /@dxos/crypto@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-fVdFqFzdDf3Qc6IiWT83MAZG4C2EoWPWW8IOqwx/Jfq7Ni1L7EnTcuN/t+w96zIX93nB3n8vRJxBL6jjjj1S8Q==}
+  /@dxos/crypto@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-dX9TonqdIFjmBkOWBsU9mhWIBzLUk3UVUYL5RkUGUe5kKR1sbMA1jyf5zew6RDPlELBNzIC4tRHUzuA6G6eGPw==}
     dependencies:
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
       hypercore-crypto: 2.3.2
     dev: false
 
-  /@dxos/debug@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-RFMZmGQ99+MLHR2q5/1OFqVoj2+j4H+Dij4PUpivMOQXBU40x1f4/S8MQyQQieKEuKgJYsPY9RMc83kNu/v5Tw==}
+  /@dxos/debug@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-DiOl2KjPxaE58TbAAthX3b0zyPo0Tr0dqeh45DX4J//2oy1DXcKEWdpsOgzXhY7rkg1ntfsv/GYyNNqtSu0e+Q==}
     dependencies:
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/node-std': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/echo-db@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-/Kgptf604BE14YtAuZVj8lgC3mOVqiUsWUJfteCzP9pVOA2PMXQVPxmujpLbh32uKrMz+AzLjzaUvezicR/qZg==}
+  /@dxos/echo-db@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-CsJ+yBu8fsbh6dJsHvvy4hYZSCVQ0Z2a1Ugkl4z3yxQVCGApX1QnmB9vO9r9uOMK0yrXSiD6OBk1G3e1xPHbMQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/echo-pipeline@0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5):
-    resolution: {integrity: sha512-TCHeTe1k+FPcUk0lBFSYzJLlohNdZFeStjYhKONkwnKdJxHFCO7hJXCj2zNCxhEhmQJtcpW8W/L94CfivH38Bw==}
+  /@dxos/echo-pipeline@0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5):
+    resolution: {integrity: sha512-mOpvAxuTbgH1p7x2VAVy//peJmU35Sa6naf86t4UFw36KHPcBebT/tiAiRpEyjmOpG715d7m+5wk4E4pLZXzQw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/automerge': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/credentials': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/feed-store': 0.4.10-main.4c8c73c
-      '@dxos/hypercore': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keyring': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/messaging': 0.4.10-main.4c8c73c
-      '@dxos/network-manager': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-automerge-replicator': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-gossip': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-object-sync': 0.4.10-main.4c8c73c
-      '@dxos/teleport-extension-replicator': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/typings': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/automerge': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/credentials': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/feed-store': 0.4.10-main.5d68f3b
+      '@dxos/hypercore': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keyring': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/messaging': 0.4.10-main.5d68f3b
+      '@dxos/network-manager': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-automerge-replicator': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-gossip': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-object-sync': 0.4.10-main.5d68f3b
+      '@dxos/teleport-extension-replicator': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/typings': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       abstract-level: 1.0.4
       crc-32: 1.2.2
       level: 8.0.1
@@ -431,25 +431,25 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/echo-schema@0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-5SnB7qafuyxzhIZWw/LDNaW059DHPFGI8stUOhLCcBFT9+M34IEDMKRHTkct5I69jkwkTrPx78ot1iwcI0GYHQ==}
+  /@dxos/echo-schema@0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-BEJWAOOfdt8IE2skEUj+D1gOqDG/otpos0rcQpAWwHNZ/MRI0HWGRfQdaIA7ABponYfTbOyCWQh3mY3EzLdhag==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/automerge': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/echo-pipeline': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/echo-signals': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/automerge': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/echo-pipeline': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/echo-signals': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       '@effect/schema': 0.64.7(effect@2.4.9)(fast-check@3.17.2)
       '@orama/orama': 2.0.16
       effect: 2.4.9
@@ -468,8 +468,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/echo-signals@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-xWENNCEW1rq3NUjs5UEDWKogW6uPfl0noLgYmuuARFwEirSMVWSCkcou9OHGOfg1ZbvfSqywdh6mVzmEKniWFg==}
+  /@dxos/echo-signals@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-W2NrgPFXLTbmjwdK6ZrBX464UQ9XtcMydMADgl8j8QvElacA3dS+/oke/+dlXo32f4udHzcqjKFh//9Hdcavwg==}
     dependencies:
       '@preact/signals': 1.2.3(preact@10.20.2)
       '@preact/signals-core': 1.6.0
@@ -479,68 +479,68 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@dxos/feed-store@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-mu3HJNQR/wFL0epZ7qVIhduz0WljjroMT5MQ0N9vqvinO8+7uvVNZ48Gg05fy6ekHFSYCgXR4UXgXOg1mSpHiw==}
+  /@dxos/feed-store@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-sSRF0m2HMqvlAKzZWbgIBFH5+INF0BVTMXBDWeuvjDf18bsQhHNKEt7OVa7/okxgfcrNiYE99HYszCWBEN1DgQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/hypercore': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keyring': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/hypercore': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keyring': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       lodash.defaultsdeep: 4.6.1
       race-as-promised: 0.0.2
       random-access-storage: 3.0.2
       streamx: 2.16.1
     optionalDependencies:
-      '@dxos/random': 0.4.10-main.4c8c73c
+      '@dxos/random': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/hypercore@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-KWW8c/YJXQh0hyW2Osx48i5nYkq5QEP4tIIuB9njUvWbCO5vjlGoyjCubsjTGCMiToTuzP/8Y9cU3OBVQAFLQg==}
+  /@dxos/hypercore@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-81hc5tnEFJGxApexJLT/+b7rQzyEhyr9O3RtiZI+dJ7U7l7lLFoZ0t/IpWrLkudzzuhiNu669Hbo14u9qjCmJw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/typings': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/typings': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       readable-stream: 3.6.2
       sodium-native: 3.4.1
       sodium-universal: 3.1.0
       streamx: 2.16.1
     dev: false
 
-  /@dxos/indexing@0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-T2ynl2Kwd2wyJkDsVOdUeqnzFiMwLyIVHEmv6REFlCrL5/tfnxDNJM47upJInzjc3nkMvEBd9/SlhWa66QYlwQ==}
+  /@dxos/indexing@0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-OhkzLz4vliICwtov65VeCknJoe6OOVZyA0vUyPazMOnR5trejs0rUP1/ZnP+9PHGK2xvDNHAxredtqnIuZBCHw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/automerge': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/echo-db': 0.4.10-main.4c8c73c
-      '@dxos/echo-pipeline': 0.4.10-main.4c8c73c(@types/node@20.12.7)(typescript@5.4.5)
-      '@dxos/echo-schema': 0.4.10-main.4c8c73c(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/automerge': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/echo-db': 0.4.10-main.5d68f3b
+      '@dxos/echo-pipeline': 0.4.10-main.5d68f3b(@types/node@20.12.7)(typescript@5.4.5)
+      '@dxos/echo-schema': 0.4.10-main.5d68f3b(@types/node@20.12.7)(fast-check@3.17.2)(typescript@5.4.5)
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       '@orama/orama': 2.0.16
       abstract-level: 1.0.4
       level: 8.0.1
@@ -557,50 +557,50 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/invariant@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-0acJz7Pc+Hg0UQ6RuZkhA4M6FCcEtfwC+LdcEd2mOhJx7TwhgA9rGbiuFmpcu2TFXsrj3moBJPo73OYQDj6vlg==}
+  /@dxos/invariant@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-JOjwg5mV5c+iiEG18rvu9ujx8zzw4m52jf8Vtcc10seWnXqZWK2i7T+E3FRCKbHioI8rgoi4u14AoWX/9rDySA==}
     dependencies:
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/node-std': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/keyring@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-tC2c5rycIj/PLLcsE5rj5814DuUHIrTKVcx+FalqlxLSfY38VuDsBA6OUhkd1S1lh2JeeeDPTB7GFi841xTkiA==}
+  /@dxos/keyring@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-AYjKEmMyZiv8g4z0llG0zCRSjBK4jQcioyoM/7Yv6BfjuRKuhPy0p2iiXxVbLGxABA2elw1VaoT3zIRVgz/Clw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/keys@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-TjqiXnrw9071vlapeIENrwI2BnKj1U8fkifdEQBC+2X4FpBRg+OtFI63F06Sjmb2VtwBxuYWJQkf9n+QAS+h8w==}
+  /@dxos/keys@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-E7GUAony+TLxwsWBmAGsLvUkEiyRB8x0W1M4zTwwjr4uu9HewW/RtIDGRu5K1zbULq3eq4xXORMss4I5wfe1AA==}
     dependencies:
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/lock-file@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-AEetcktPydbxsKO62JFIszTyBaM1kznLK4i28O9O52sdBmU/LEcdnzMwQv3QTKFAZapcBb34rW9TNmlCK5b1Eg==}
+  /@dxos/lock-file@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-rqRttFXaqOrUD7d02GyHEsTvYFJ8esPIlVDnHkA8IW33amSAGnF8sZOEwzEKQUQFl/BeCIs2iyYQlkseCzk6Gg==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
       fs-ext: 2.0.0
     dev: false
 
-  /@dxos/log@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-Ziui9eejzgAL5EXdoKQ86ppM/1vXRFz0d70THQDvxdgaLoBxzbO/tp/ZYaklcMKpxg+sxJrFCo3WvaENZJURAg==}
+  /@dxos/log@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-L4jX45j0ri4heHXFONOwDWE0vBYGVYELY/KTC2QTZiiGiO/MRNHHDjmlFdrYFrJVmy3NSSZlbKW5VxmiFllfLQ==}
     dependencies:
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       chalk: 4.1.2
       js-yaml: 4.1.0
       lodash.defaultsdeep: 4.6.1
@@ -609,19 +609,19 @@ packages:
       lodash.pickby: 4.6.0
     dev: false
 
-  /@dxos/messaging@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-LhAXxi8G16Z8ykLBjdfaekdZjLB+yKI8AM7/x4sX/lhw17W0rAGhvTPR2wQW3dm4rhTFR2xbTEdp78LfcdJsLw==}
+  /@dxos/messaging@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-5LREEpDYXoB/FZykZUEzLL5z+aISB/5uO6qDiEahcOpHzu0MqPgKyKin3YHUw/MiksNeuJlHTuVPQnOGZ4AMlw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       isomorphic-ws: 4.0.1(ws@8.16.0)
       ws: 8.16.0
     transitivePeerDependencies:
@@ -629,24 +629,24 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/network-manager@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-lawVzBiFzKymLOkQ8Z9u9Vvoohpl6zf0e+i+4zI2e1qVB+p82W7qDnAn/QleVmWWWZKiWX7JqGqXFCx+laScJg==}
+  /@dxos/network-manager@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-iFz4KsFpjOY/E/QF7oofFXuWLjpuGu4NFy52NAJcJOecC5WJf959OplL97qZlE6y1YaXmv/5+5E5pmtya1ktYQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/credentials': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/messaging': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/credentials': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/messaging': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       '@koush/wrtc': 0.5.3
       isomorphic-ws: 4.0.1(ws@8.16.0)
       nanomessage-rpc: 3.2.0
@@ -664,8 +664,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/node-std@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-W6RWlgcZxRmsDEbh7z593XUpYFK6v31TYPG7ss5c5DAqthIahyv9q2HGqB7oauSes4eh2AJpujVsQJQGp5wtXg==}
+  /@dxos/node-std@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-EaavBheQ5ZLSTWcseQp0nRJpZZlvEok05ewVfWbf2IIi7n1qKNJfyMa1YO5lRM3tqwZrItpP/nyuG6ZRDIH9PA==}
     dependencies:
       assert: 2.1.0
       events: 3.3.0
@@ -674,26 +674,26 @@ packages:
       util: 0.12.5
     dev: false
 
-  /@dxos/protocols@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-SBOzbhkh7sKpLXcq8RkXJDjKsJb0tn7lcfxVgI3GcuXzk6tIqxGzFhp+XyTra4F2v6QxR5h6S3wBYXTGvsxa8A==}
+  /@dxos/protocols@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-Yo7gFUNf6R3bcBE8l+HD12wt1KO9xOhEkRH/wOAVjBw6/TDf4TLEWzH6uATsqcmG5nZb0KFlqhZZGlLg2tzH7w==}
     dependencies:
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/timeframe': 0.4.10-main.4c8c73c
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/timeframe': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/random-access-storage@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-v54XXrHacCaozE20twAhbxYKuWz0sX1lGppUGVegmS8KscHAy/YMTMTNxmQS++gvFv4vpol6WCxIB7JCLHycDw==}
+  /@dxos/random-access-storage@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-e/Vc5CfhnCYaByr4fqEiBYtEU5zdG2vQF171EdK1d2SAtw2Z+bHt25JbMVHRn0jeaS+1QwhWOs7ymQSGrxn4pQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/tracing': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/tracing': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       del: 5.1.0
       pify: 5.0.0
       random-access-file: 2.2.1
@@ -703,171 +703,171 @@ packages:
       random-access-web: 2.0.3
     dev: false
 
-  /@dxos/random@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-4vpOVwmzFPny5g+t2IZBeGrji1FsXsGEO7eeigG+OTewTpk7AeArpP9xB88vedWIzT/elsPANE8x9941vuH9Dg==}
+  /@dxos/random@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-dvcwpg5C0WHpF3yc6FcKsF2FbT7mLFb+WtgLeUdfoqIiPZrli8PdpO9LHjHqB+2Xa1/zgOmhB7+luXvJ+8LE5Q==}
     requiresBuild: true
     dependencies:
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/node-std': 0.4.10-main.5d68f3b
       '@ngneat/falso': 7.2.0
       seedrandom: 3.0.5
       uuid: 8.3.2
     dev: false
     optional: true
 
-  /@dxos/rpc-tunnel@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-YmQm240Xrj5jCtD79FtmQ/T6f0tMjqfPjlAvvXmzsOG1EsE35y8364m4dBYdofVIOl10xYyO9xflVfh59lkMfw==}
+  /@dxos/rpc-tunnel@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-AgsO9rZ66Ny49EERC/QQAImvOOxn+49uYsFVOCRA1edU1zt5YjgRCOD7ttywXvqz1+mP/1ubo7aA1biStdKz2A==}
     dependencies:
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
       ua-parser-js: 1.0.37
     dev: false
 
-  /@dxos/rpc@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-KDYiKWgivVcd2pFc0DyPP/HxnRTWKI7DNAK+Te2w5RhFb2XHPalXMGqSqcDMu31hLNWBFQdl7kdFuCIoNLL2Sg==}
+  /@dxos/rpc@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-2Z3pPcwXpGV01nDXYb5cBinzwclfwrGWs0UbynJuBs/fUXaW+eTzwDBvxuoeZ2GUCKhLeqFqKlYzVuU7wY0Adw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/teleport-extension-automerge-replicator@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-nR5icYJDDx5qq2u+OnS8fk+S0cRj6KiqAhsrD0fAyjqJI0AwdY+9FIBfWyl/EjtAiROsaOX9hVGfUq5pFc3K7w==}
+  /@dxos/teleport-extension-automerge-replicator@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-5Q4ir5cmvxtOUbv7tPm4+AJZ+ttrTq+B3OjObyvAxoYNQvb1u1Hs+I9HfuG9l6yOn1moQlaszjfBYFIlTDs+Ig==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/teleport-extension-gossip@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-CFDA214OhRe77yT1mF2dMHmOGZGHwCbQ7PDbsNq8dfWdkt5qcf8ZR4gjm3M9AM1fDk5Zcafa93i++fDWlaEHRA==}
+  /@dxos/teleport-extension-gossip@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-wbEJy8zPqMB654MwEZXGDALjQAsSWGRtwjxPaRYxx18wUIW6+8jyz6KVOsWyIbGfTpi8E7D1uSDZmzi13Y3/lw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/teleport-extension-object-sync@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-LFEi65g2a+aS/aXTmyHpUr9Exrgxp6VlQ4w3Xd1D2Gk0ijR0+nqaOOlm0QiPMGVF+KL8AzLrs0+k3JcsZ1MMaA==}
+  /@dxos/teleport-extension-object-sync@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-wG1/9em4nyeiWvrEGvI4vT/4IG2WBJvqLP6KEoFSb5MCo7xf1iV5L2t/7FOfmOlG9ocOUvVlQQv2zf3TAoOF6g==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/crypto': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/random-access-storage': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/crypto': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/random-access-storage': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/teleport-extension-replicator@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-tev5cCs3Y2iePkFYTsW6CXs77d94ufcxgMZaTklXeFLoyXb1m1kqaeDrXO//VRrvNkH+7rlIc2/wJPU4MdkaCg==}
+  /@dxos/teleport-extension-replicator@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-qK2cfIIER+xqI8+pjaBw71N2sOG/1fb5D4y2voQCz9mCH4tWR4D3l0bLNmrUnuBJhZjO6b0fnoFBbL2G1D1YUw==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/feed-store': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/teleport': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/feed-store': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/teleport': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/teleport@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-cq8LiV3Xcvk65U16voHFBzjiGuieL/RPfRDd2Hbvmok+nkXiLaJm8SngfM1NKc3cx3kcUI7PeVP4zVVBUlXPFA==}
+  /@dxos/teleport@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-ao9XkALeY5y8IY3QnlHNuh5LwPXz3M+Nu34SMdX8vHtj5xA98NWZW+YgGsbTjXnWuKsYhQGhzt9+7I3uFI03iQ==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       randombytes: 2.1.0
       varint: 6.0.0
     dev: false
 
-  /@dxos/timeframe@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-EqU2Ig2e2M31Bo2/HwEzpzmpiBRNqvaUbPvDs6HDRJQ0yavxRYQON8YaMbLskfSUub5YsZLq2uuQD46jb4qzwg==}
+  /@dxos/timeframe@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-OqSAJYrZMCAv2OIQzHNVkCkvNVVnJRojqXXXCfKfUb2hf8Nlz1tT4SsoaTjkk57JcuzKmoy1CbWxg7NrVh6Z1A==}
     dependencies:
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/tracing@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-GA0IoALRKYuXhi/w9ESJCQButmofUfP01T+kyX1YvlcgXPjkphMJqf2A4pbV9TWSyDBQzpdqO3VimaPGTZtcxw==}
+  /@dxos/tracing@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-mxhfUPgwLlQxcAH4Han/8m3ADQmmT6Fwg0MEcwwXpkyURzFYBj2a2EXQH3cnTHN22kx17U+yvFDxkIVeuUn3IA==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/typings@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-kSxRY5C7UBANy57cuS28W/e28OD7OIes4sUOMxE+Et8KzoUrzbgo2YDHf4w86btUllftlY+q84jDc6JL8KNjjw==}
+  /@dxos/typings@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-QAUqWHAy0Skq8Dc/yxAqCV0XkLjG62oOv+qPgxF+vW1697Y6YA8tv3xU8eJPagxdIffjlzvcyloRYON+ZoH/sQ==}
     dev: false
 
-  /@dxos/util@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-Ag9dG+zyhEQ1dMVRMXbsxlWAoqVQcDyGQXnd7/4ktXlIG/8Uitv0reyL46aVeBD2aZzPlDNQaOO4W9So3Oew3Q==}
+  /@dxos/util@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-DVqKlZwabA67jyTZ7k9pdsErBVNENCSl4SeQaaKC6R6/Ve5GqiAb9oQAKUilZzlE3RDrc4JIs7Z9eBrK+2DvFw==}
     dependencies:
-      '@dxos/debug': 0.4.10-main.4c8c73c
-      '@dxos/invariant': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
+      '@dxos/debug': 0.4.10-main.5d68f3b
+      '@dxos/invariant': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
     dev: false
 
-  /@dxos/websocket-rpc@0.4.10-main.4c8c73c:
-    resolution: {integrity: sha512-/yXCS4Vir4ThUyARWpnJ8717mCo+KqQqBdr8Tr//IdbLHJu4BIbX7syj87A45FCT48+RsJEaBz9s5l553NQg1g==}
+  /@dxos/websocket-rpc@0.4.10-main.5d68f3b:
+    resolution: {integrity: sha512-kR/RCkv0pT0CEq6YWBoHJmlhLlfHb4VKGpdhlG7EUfC8cgIShZ3uZMYYlXjOYxCiZ8EjnHIqGWUNRzVLivzeAA==}
     dependencies:
-      '@dxos/async': 0.4.10-main.4c8c73c
-      '@dxos/codec-protobuf': 0.4.10-main.4c8c73c
-      '@dxos/context': 0.4.10-main.4c8c73c
-      '@dxos/keys': 0.4.10-main.4c8c73c
-      '@dxos/log': 0.4.10-main.4c8c73c
-      '@dxos/node-std': 0.4.10-main.4c8c73c
-      '@dxos/protocols': 0.4.10-main.4c8c73c
-      '@dxos/rpc': 0.4.10-main.4c8c73c
-      '@dxos/util': 0.4.10-main.4c8c73c
+      '@dxos/async': 0.4.10-main.5d68f3b
+      '@dxos/codec-protobuf': 0.4.10-main.5d68f3b
+      '@dxos/context': 0.4.10-main.5d68f3b
+      '@dxos/keys': 0.4.10-main.5d68f3b
+      '@dxos/log': 0.4.10-main.5d68f3b
+      '@dxos/node-std': 0.4.10-main.5d68f3b
+      '@dxos/protocols': 0.4.10-main.5d68f3b
+      '@dxos/rpc': 0.4.10-main.5d68f3b
+      '@dxos/util': 0.4.10-main.5d68f3b
       isomorphic-ws: 4.0.1(ws@8.16.0)
       ws: 8.16.0
     transitivePeerDependencies:
