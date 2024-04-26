@@ -14,7 +14,11 @@
     "vite-plugin-wasm": "^3.3.0"
   },
   "dependencies": {
-    "@dxos/client": "0.4.10-main.5d68f3b",
+    "@automerge/automerge": "^2.2.0",
+    "@automerge/automerge-repo": "^1.1.9",
+    "@automerge/automerge-repo-network-broadcastchannel": "^1.1.9",
+    "@automerge/automerge-repo-storage-indexeddb": "^1.1.9",
+    "add": "^2.0.6",
     "vite-plugin-top-level-await": "^1.4.1"
   }
 }
