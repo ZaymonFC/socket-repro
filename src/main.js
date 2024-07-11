@@ -2,9 +2,9 @@ import "./style.css";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <h1>Duplex issue</h1>
+    <h1>Stream issue repro</h1>
     <p class="read-the-docs">
-    Minimal example (check console)
+    (check console)
     </p>
   </div>
 `;

@@ -39,6 +39,7 @@ export class Framer {
           "Internal Framer bug. Concurrent writes detected.",
         );
 
+        // NOTE: This should really have value ... ¯\_(ツ)_/¯
         if (typeof next !== "function") {
           throw new Error("Internal Framer bug. Write callback is missing.");
         }
