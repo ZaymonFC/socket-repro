@@ -18,6 +18,10 @@
     "@automerge/automerge-repo": "^1.1.9",
     "@automerge/automerge-repo-network-broadcastchannel": "^1.1.9",
     "@automerge/automerge-repo-storage-indexeddb": "^1.1.9",
+    "@dxos/async": "^0.6.0",
+    "@dxos/invariant": "^0.6.0",
+    "@dxos/log": "^0.6.0",
+    "@dxos/rpc": "^0.6.0",
     "add": "^2.0.6",
     "vite-plugin-top-level-await": "^1.4.1"
   }
