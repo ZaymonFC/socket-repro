@@ -1,5 +1,13 @@
 
 ## Instructions
+Build `ssc` from source using the `next` branch
+```sh
+git clone git@github.com:socketsupply/socket.git
+cd socket
+git checkout next
+./bin/install.sh
+```
+
 Build the bundle and invoke socket:
 
 ```sh
